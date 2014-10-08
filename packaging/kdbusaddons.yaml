@@ -8,7 +8,6 @@ Description  : |
   KDBusAddons provides convenience classes on top of QtDBus, as well as an API to
   create KDED modules.
 URL          : http://www.kde.org
-SetupOptions : -q -n %{name}-%{version}/upstream
 
 Sources:
     - "%{name}-%{version}.tar.xz"
