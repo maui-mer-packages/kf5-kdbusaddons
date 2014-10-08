@@ -10,7 +10,7 @@ Name:       kdbusaddons
 
 Summary:    KDE Frameworks 5 Tier 1 addon with various classes on top of QtDBus
 Version:    5.3.0
-Release:    1
+Release:    2
 Group:      System/Base
 License:    GPLv2+
 URL:        http://www.kde.org
@@ -32,6 +32,7 @@ BuildRequires:  pkgconfig(Qt5X11Extras)
 BuildRequires:  kf5-rpm-macros
 BuildRequires:  extra-cmake-modules
 BuildRequires:  qt5-tools
+BuildRequires:  qt5-qttools-linguist
 
 %description
 KDBusAddons provides convenience classes on top of QtDBus, as well as an API to
